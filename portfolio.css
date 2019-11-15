@@ -218,10 +218,6 @@ h2 {
     left: 17%;
 }
 
-.shopify .logo {
-    top: 175%;
-}
-
 h3 {
     color: #213761;
 }
@@ -259,20 +255,22 @@ li {
     font-size: 1rem;
 }
 
-.deca .logo {
-    top: 215%;
+.shopify .logo {
+    margin-top: -19rem;
 }
 
-.flo .logo {
-    top: 253%
+.deca .logo {
+    margin-top: -20rem;
 }
+
+.flo .logo {}
 
 .computerclub .logo {
-    top: 290%;
+    margin-top: -20rem;
 }
 
 .kumon .logo {
-    top: 328%;
+    margin-top: -20rem;
 }
 
 ul {
@@ -378,10 +376,6 @@ ul {
     font-size: 1.2rem;
 }
 
-.announcement {
-    margin-left: 22%;
-}
-
 .footer {
     background-color: #2D3436;
     width: 100%;
@@ -391,6 +385,10 @@ ul {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+.images {
+    text-align: center;
 }
 
 
@@ -439,4 +437,26 @@ ul {
 .linkedin,
 .github {
     padding: 0.5%;
+}
+
+#time {
+    text-align: center;
+}
+
+button {
+    padding: 0.5em 1.5em;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #1976d2;
+    font-size: 1.2em;
+    font-family: Brandon Regular;
+    border: 0;
+    cursor: pointer;
+}
+
+#lastUpdatedText {
+    font-family: Brandon Regular;
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 1em;
 }

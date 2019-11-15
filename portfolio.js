@@ -1,4 +1,4 @@
-const pageID = ["landing", "intro", "leadership", "hostevents", "personal", "foot"];
+const pageID = ['landing', 'intro', 'leadership', 'hostevents', 'personal', "foot"];
 
 let currentIndex = 0
 
@@ -24,3 +24,8 @@ downButton.addEventListener('click', () => {
 
     document.getElementById(pageID[currentIndex]).scrollIntoView();
 });
+
+function lastUpdated() {
+    let time = new Date(document.lastModified);
+    document.getElementById("lastUpdatedText").innerHTML = time;
+}
