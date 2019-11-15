@@ -1,5 +1,4 @@
 /* Imports the Downloaded Fonts */
-
 @font-face {
     src: url(fonts/Brandon_bld.otf);
     font-family: Brandon Bold;
@@ -20,9 +19,7 @@
     font-family: Brandon Regular;
 }
 
-
 /* Removes any default CSS properties */
-
 * {
     margin: 0;
     padding: 0;
@@ -38,9 +35,7 @@ h2 {
     color: #2f3640;
 }
 
-
 /* Landing Page Properties */
-
 .landingpage {
     background-image: url(Images/ashwin.jpg);
     width: 100vw;
@@ -66,16 +61,8 @@ h2 {
     font-size: 4rem;
 }
 
-.leftbar,
-.rightbar {
-    height: 5px;
-    width: 6rem;
-}
-
-
-/* Left Bar and Right Bar for Landing Page */
-
-.landingpagetext .leftbar {
+ /* Left and Right Bar */
+.leftbar {
     height: 5px;
     width: 6rem;
     color: #FFFFFF;
@@ -85,7 +72,7 @@ h2 {
     background-color: #FFFFFF;
 }
 
-.landingpagetext .rightbar {
+.rightbar {
     height: 5px;
     width: 6rem;
     color: #FFFFFF;
@@ -95,9 +82,7 @@ h2 {
     background-color: #FFFFFF;
 }
 
-
 /* Fade In Effects */
-
 .fadein {
     -webkit-animation: fadein 10s;
     /* Safari, Chrome and Opera > 12.1 */
@@ -119,9 +104,7 @@ h2 {
     }
 }
 
-
 /* Safari, Chrome and Opera > 12.1 */
-
 @-webkit-keyframes fadein {
     from {
         opacity: 0;
@@ -131,9 +114,7 @@ h2 {
     }
 }
 
-
 /* Up and Down Buttons */
-
 .upbutton {
     position: fixed;
     top: 82%;
@@ -146,32 +127,15 @@ h2 {
     right: 3%;
 }
 
-
 /* Introduction Section */
-
 .introduction {
     background-color: #EEEEEE;
 }
 
-.introheader {
+.introheader,
+#time,
+.images {
     text-align: center;
-}
-
-
-/* Introduction Bars */
-
-.introheader .leftbar {
-    background-color: #000000;
-    position: absolute;
-    top: 107%;
-    left: 22%;
-}
-
-.introheader .rightbar {
-    background-color: #000000;
-    position: absolute;
-    top: 107%;
-    right: 22%;
 }
 
 .introheader h1,
@@ -188,26 +152,10 @@ h2 {
     font-family: Brandon Regular;
 }
 
-
 /* Here is what I have worked on */
-
 .work {
     background-color: #FFFFFF;
     text-align: center;
-}
-
-.work .leftbar {
-    background-color: #000000;
-    position: absolute;
-    left: 20%;
-    top: 169%;
-}
-
-.work .rightbar {
-    background-color: #000000;
-    position: absolute;
-    right: 20%;
-    top: 169%;
 }
 
 .logo {
@@ -226,9 +174,7 @@ h4 {
     color: #2f3640;
 }
 
-
 /* Text for the Work Done Section */
-
 .textinfo {
     margin-left: 35%;
     margin-right: 20%;
@@ -255,20 +201,13 @@ li {
     font-size: 1rem;
 }
 
+ /* Work Logos */
 .shopify .logo {
     margin-top: -19rem;
 }
 
-.deca .logo {
-    margin-top: -20rem;
-}
-
-.flo .logo {}
-
-.computerclub .logo {
-    margin-top: -20rem;
-}
-
+.deca .logo,
+.computerclub .logo,
 .kumon .logo {
     margin-top: -20rem;
 }
@@ -277,9 +216,7 @@ ul {
     margin-left: 3%;
 }
 
-
 /* Events Section */
-
 .events {
     background-color: #2D3436;
     color: white;
@@ -300,9 +237,7 @@ ul {
     text-align: center;
 }
 
-
 /* Graphs */
-
 .graphs {
     text-align: center;
     margin-top: 2%;
@@ -315,9 +250,7 @@ ul {
     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-
 /* Event Images */
-
 .regionals,
 .funnymoney,
 .decajuniors {
@@ -326,7 +259,8 @@ ul {
     margin-bottom: 1%;
 }
 
-.hostedevents {
+.hostedevents,
+.flo .logo {
     margin-bottom: 1%;
 }
 
@@ -335,9 +269,7 @@ ul {
     font-size: 1.3rem;
 }
 
-
 /* Personal Projects Section */
-
 .personalprojects {
     background-color: #FEFFFF;
 }
@@ -349,23 +281,7 @@ ul {
     text-align: center;
 }
 
-.personalprojects .leftbar {
-    background-color: #000000;
-    position: absolute;
-    left: 25%;
-    top: 468%;
-}
-
-.personalprojects .rightbar {
-    background-color: #000000;
-    position: absolute;
-    right: 25%;
-    top: 468%;
-}
-
-
 /* Personal Project Text */
-
 .pptext {
     margin-left: 25%;
     margin-right: 25%;
@@ -387,13 +303,7 @@ ul {
     padding: 10px;
 }
 
-.images {
-    text-align: center;
-}
-
-
 /* Table Properties */
-
 .statistics {
     font-family: Brandon Regular;
     font-size: 1.2rem;
@@ -428,7 +338,6 @@ ul {
 
 
 /* Footer */
-
 .socialmedia {
     text-align: center;
 }
@@ -437,10 +346,6 @@ ul {
 .linkedin,
 .github {
     padding: 0.5%;
-}
-
-#time {
-    text-align: center;
 }
 
 button {
