@@ -1,0 +1,367 @@
+/* Imports the Downloaded Fonts */
+@font-face {
+    src: url(fonts/Brandon_bld.otf);
+    font-family: Brandon Bold;
+}
+
+@font-face {
+    src: url(fonts/Brandon_blk.otf);
+    font-family: Brandon Black;
+}
+
+@font-face {
+    src: url(fonts/Brandon_med.otf);
+    font-family: Brandon Medium;
+}
+
+@font-face {
+    src: url(fonts/Brandon_reg.otf);
+    font-family: Brandon Regular;
+}
+
+/* Removes any default CSS properties */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Brandon Medium;
+    color: #2f3640;
+}
+
+h2 {
+    font-family: Brandon Regular;
+    color: #2f3640;
+}
+
+/* Landing Page Properties */
+.landingpage {
+    background-image: url(Images/ashwin.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landingpagetext h1 {
+    position: absolute;
+    color: white;
+    bottom: 22%;
+    right: 15%;
+    font-size: 6rem;
+}
+
+.landingpagetext h2 {
+    position: absolute;
+    bottom: 35%;
+    right: 20%;
+    color: white;
+    font-size: 4rem;
+}
+
+ /* Left and Right Bar */
+.leftbar {
+    height: 5px;
+    width: 6rem;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 39%;
+    right: 35%;
+    background-color: #FFFFFF;
+}
+
+.rightbar {
+    height: 5px;
+    width: 6rem;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 29%;
+    right: 7%;
+    background-color: #FFFFFF;
+}
+
+/* Fade In Effects */
+.fadein {
+    -webkit-animation: fadein 10s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 10s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 10s;
+    /* Internet Explorer */
+    -o-animation: fadein 10s;
+    /* Opera < 12.1 */
+    animation: fadein 10s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Up and Down Buttons */
+.upbutton {
+    position: fixed;
+    top: 82%;
+    right: 3%;
+}
+
+.downbutton {
+    position: fixed;
+    top: 89%;
+    right: 3%;
+}
+
+/* Introduction Section */
+.introduction {
+    background-color: #EEEEEE;
+}
+
+.introheader,
+#time,
+.images {
+    text-align: center;
+}
+
+.introheader h1,
+.work h1 {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.introtext {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 1.5rem;
+    font-family: Brandon Regular;
+}
+
+/* Here is what I have worked on */
+.work {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.logo {
+    background-color: #213761;
+    width: 250px;
+    box-shadow: 8px 15px #C4D5FE;
+    position: absolute;
+    left: 17%;
+}
+
+h3 {
+    color: #213761;
+}
+
+h4 {
+    color: #2f3640;
+}
+
+/* Text for the Work Done Section */
+.textinfo {
+    margin-left: 35%;
+    margin-right: 20%;
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+.textinfo p,
+li {
+    font-family: Brandon Regular;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.textinfo h3 {
+    font-family: Brandon Medium;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.textinfo h4 {
+    font-family: Brandon Medium;
+    font-size: 1rem;
+}
+
+ /* Work Logos */
+.shopify .logo {
+    margin-top: -19rem;
+}
+
+.deca .logo,
+.computerclub .logo,
+.kumon .logo {
+    margin-top: -20rem;
+}
+
+ul {
+    margin-left: 3%;
+}
+
+/* Events Section */
+.events {
+    background-color: #2D3436;
+    color: white;
+}
+
+.eventsheader h1 {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    text-align: center;
+}
+
+.eventsheader h3 {
+    color: white;
+    font-size: 1.4rem;
+    font-family: Brandon Regular;
+    text-align: center;
+}
+
+/* Graphs */
+.graphs {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#planning:hover,
+#executing:hover,
+#organizing:hover {
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* Event Images */
+.regionals,
+.funnymoney,
+.decajuniors {
+    width: 33.1%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.hostedevents,
+.flo .logo {
+    margin-bottom: 1%;
+}
+
+.events .hostedevents h1 {
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* Personal Projects Section */
+.personalprojects {
+    background-color: #FEFFFF;
+}
+
+.personalprojects h1 {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+/* Personal Project Text */
+.pptext {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: Brandon Regular;
+    font-size: 1.2rem;
+}
+
+.footer {
+    background-color: #2D3436;
+    width: 100%;
+}
+
+.footer h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Table Properties */
+.statistics {
+    font-family: Brandon Regular;
+    font-size: 1.2rem;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.statistics td,
+#statistics th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.statistics tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.statistics tr:hover {
+    background-color: #ddd;
+}
+
+.statistics th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2B3436;
+    color: #22BEBB;
+    text-align: center;
+}
+
+
+/* Footer */
+.socialmedia {
+    text-align: center;
+}
+
+.gmail,
+.linkedin,
+.github {
+    padding: 0.5%;
+}
+
+button {
+    padding: 0.5em 1.5em;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #1976d2;
+    font-size: 1.2em;
+    font-family: Brandon Regular;
+    border: 0;
+    cursor: pointer;
+}
+
+#lastUpdatedText {
+    font-family: Brandon Regular;
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
